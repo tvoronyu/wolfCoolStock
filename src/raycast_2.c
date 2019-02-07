@@ -67,7 +67,7 @@ void	ft_check_wall_dist(t_wolf *wolf)
 //	if (wolf->draw.perp_wall_dist < 0.05)
 //		wolf->draw.perp_wall_dist = 0.05;
 	wolf->draw.line_height = (int)(HEIGHT / wolf->draw.perp_wall_dist);
-	wolf->draw.draw_start = (-wolf->draw.line_height / 2 + HEIGHT / 2) + wolf->test_count;
+	wolf->draw.draw_start = (-wolf->draw.line_height / 2 + HEIGHT / 2);
 //	printf("%f\n", wolf->draw.perp_wall_dist);
 //	wolf->draw.draw_start += 100;
 }

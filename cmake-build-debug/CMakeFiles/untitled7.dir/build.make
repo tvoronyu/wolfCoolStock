@@ -57,27 +57,27 @@ include CMakeFiles/untitled7.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled7.dir/flags.make
 
-CMakeFiles/untitled7.dir/main.c.o: CMakeFiles/untitled7.dir/flags.make
-CMakeFiles/untitled7.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tvoronyu/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled7.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled7.dir/main.c.o   -c /Users/tvoronyu/CLionProjects/untitled7/main.c
+CMakeFiles/untitled7.dir/src/main.c.o: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tvoronyu/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled7.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled7.dir/src/main.c.o   -c /Users/tvoronyu/CLionProjects/untitled7/src/main.c
 
-CMakeFiles/untitled7.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled7.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tvoronyu/CLionProjects/untitled7/main.c > CMakeFiles/untitled7.dir/main.c.i
+CMakeFiles/untitled7.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled7.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tvoronyu/CLionProjects/untitled7/src/main.c > CMakeFiles/untitled7.dir/src/main.c.i
 
-CMakeFiles/untitled7.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled7.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tvoronyu/CLionProjects/untitled7/main.c -o CMakeFiles/untitled7.dir/main.c.s
+CMakeFiles/untitled7.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled7.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tvoronyu/CLionProjects/untitled7/src/main.c -o CMakeFiles/untitled7.dir/src/main.c.s
 
 # Object files for target untitled7
 untitled7_OBJECTS = \
-"CMakeFiles/untitled7.dir/main.c.o"
+"CMakeFiles/untitled7.dir/src/main.c.o"
 
 # External object files for target untitled7
 untitled7_EXTERNAL_OBJECTS =
 
-untitled7: CMakeFiles/untitled7.dir/main.c.o
+untitled7: CMakeFiles/untitled7.dir/src/main.c.o
 untitled7: CMakeFiles/untitled7.dir/build.make
 untitled7: CMakeFiles/untitled7.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tvoronyu/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable untitled7"

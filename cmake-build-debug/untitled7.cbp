@@ -92,7 +92,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tvoronyu/CLionProjects/untitled7/main.c">
+		<Unit filename="/Users/tvoronyu/CLionProjects/untitled7/src/main.c">
 			<Option target="untitled7"/>
 		</Unit>
 		<Unit filename="/Users/tvoronyu/CLionProjects/untitled7/CMakeLists.txt">
